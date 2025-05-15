@@ -1,0 +1,37 @@
+.card-post {
+  background-color: #151526;
+  color: #00ff99;
+  font-family: 'Press Start 2P', monospace;
+  border: 2px solid #00ff99;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+.card-post a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.card-post a:hover {
+  text-decoration: underline;
+}
+
+.card-post .description {
+  font-size: 12px;
+  margin: 1rem 0;
+}
+
+.card-post .course {
+  font-size: 11px;
+  margin-bottom: 1rem;
+}
+
+.ver-mas {
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  border: 2px solid #00ff99;
+  text-align: center;
+  font-size: 12px;
+}

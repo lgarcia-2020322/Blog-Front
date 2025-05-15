@@ -1,0 +1,67 @@
+.post-container {
+  background-color: #0f0f23;
+  color: #00ff99;
+  font-family: 'Press Start 2P', monospace;
+  padding: 2rem;
+  border: 2px solid #00ff99;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.post-container a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.post-container a:hover {
+  text-decoration: underline;
+}
+
+.comment-box {
+  background-color: #1a1a2e;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid #00ff99;
+}
+
+.comment-form input,
+.comment-form textarea {
+  background-color: #0f0f23;
+  color: #00ff99;
+  border: 2px solid #00ff99;
+  padding: 10px;
+  width: 100%;
+  font-family: monospace;
+  margin-bottom: 1rem;
+}
+
+.comment-form button {
+  background-color: transparent;
+  color: #00ff99;
+  border: 2px solid #00ff99;
+  padding: 0.5rem 1rem;
+  font-family: 'Press Start 2P', monospace;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.comment-form button:hover {
+  background-color: #00ff99;
+  color: #0f0f23;
+}
+.btn-back {
+  background-color: transparent;
+  border: 2px solid #00ff99;
+  color: #00ff99;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Press Start 2P', monospace;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-back:hover {
+  background-color: #00ff99;
+  color: #0f0f23;
+}
